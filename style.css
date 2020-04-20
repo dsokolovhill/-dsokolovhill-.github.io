@@ -1,0 +1,201 @@
+body { 
+  background-image:url(photos/skyline.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.back {
+  color: white;
+  font-family:"georgia";
+  font-size: 16px;
+}
+
+/* The Tel Aviv and Berkeley Photos*/
+#tel_aviv{
+width: 47%;
+float:left;
+margin-right:1%;
+}
+
+#berkeley{
+  width:47%;
+  height: 360px;
+  float:right;
+  margin-left:1%;
+}
+
+#cities{
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+/* Achievements and Relevant Experiences*/
+.linespacing{
+  line-height: 3;
+}
+
+#main{
+  display:block;
+  float: middle;
+  margin-right:auto;
+  margin-left:auto;
+  width:800px;
+  background-color: lightblue;
+  height:100%;
+  border-style: solid;
+  border-color: none;
+  border-width:3px;
+  
+  
+}
+#experiences{
+  width=50%;
+  float:left;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: none;
+  background-color: none;
+  margin-left: 30px;
+  margin-top:50px;
+  padding-right: 5px;
+}
+
+#achivements{
+  width:50%;
+  float:right;
+  border-style: solid;
+  border-radius:25px;
+  border-color: none;
+  background-color:white;
+  margin-right: 30px;
+  margin-top:50px;
+  padding-right: none;
+}
+
+#titleex{
+  display: block;
+  width:50%;
+  margin-left: 330px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-radius:25px;
+  border-color: none;
+  background-image: url("photos/paper.jpeg");
+  padding-right: -100px;
+  padding-left: -100px;
+  
+}
+#trophy{
+  display: block;
+  margin-right:900px;
+}
+
+.padding{
+  display: block;
+  margin-top:320px;
+}
+
+#cities{
+  display:block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ib{
+  display:block;
+  float: right;
+  margin-left:100px;
+}
+
+#mock{
+  display: block;
+  padding:0px;
+  margin-bottom:0%;
+  border:0px;
+  float: right;
+  margin-top:20px;
+}
+/*Navigation things*/
+
+.bullet {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow:hidden;
+  background-color:white;
+  height=auto;
+  width:100%;
+}
+
+.bullet li{
+  float: left;
+  border-right: 1px solid #bbb;
+  width:24.9%;
+}
+
+.bullet li:last-child {
+  border-right:2px solid green;
+}
+ 
+.bullet a{
+  display:block;
+  padding:12px;
+  background-color: green;
+}
+
+.bullet a{
+  display:block;
+  padding:12px;
+  background-color: green;
+}
+
+.bullet li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+ li a:hover{
+   background-color: #111;
+ }
+
+#skills_margin{
+  margin-top:50px;
+}
+
+#margin_bottom_skills{
+  margin-bottom:30px;
+}
+/* borders */
+.footer{
+  padding-top:40px;
+  margin: 0px;
+  width:100%;
+}
+
+#main{
+  padding-bottom: 60px;
+  padding-top:40px;
+  padding-left: 60px ;
+  margin-top: 140px;
+  margin-right: 50px;
+  margin-bottom:200px;
+  background-image:url("photos/desert.jpg");
+}
+#myphoto{
+  display: block;
+  float: left;
+  margin-left:60px;
+  margin-right:20px;
+  margin-top:110px ;
+  border-style: solid;
+  border-color: none;
+  border-width:3px;
+  
+}
+
+.footer{
+  clear:both;
+}
